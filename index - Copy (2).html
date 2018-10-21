@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    
+    <title>Word Guess Game</title>
+</head>
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Word Guess Game</h1>
+          <p class="lead" id="status">Let's Play a Game. Press any key to get started.</p>
+         <!-- <button onclick="selectWord()"> Click to Play</button>-->
+            <h1><p id="gameWord"></p></h1>
+            <div>
+                <label for="correctGuess">Correct Guess:</label>
+                <label id="correctGuess"></label>
+              </div>
+              <div>
+                <label for="incorrectGuess">Incorrect Guess:</label>
+                <label id="incorrectGuess"></label>
+              </div>
+              <div>
+                <label for="lblTurnsRemain">Turns Remaining:</label>
+                <label id="lblTurnsRemain"></label>
+              </div>
+              <div>
+                <label for="lblWins">Wins:</label>
+                <label id="lblWins"></label>
+              </div>
+              <div>
+                <label for="lblLoses">Loses:</label>
+                <label id="lblLoses"></label>
+              </div>
+              <div>
+                <label for="lblIncorrectLetter">Incorrect Letters Guessed:</label>
+                <label id="lblIncorrectLetter">.</label>
+              </div>
+              
+      </div>
+    </div>
+    
+
+
+
+<script src="assets/javascript/game.js"></script>   
+</body>
+</html>
