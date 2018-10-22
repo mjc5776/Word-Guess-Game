@@ -1,6 +1,6 @@
  var wins = 0;
  var loss = 0;
- var turns = 10;
+ var turns = 15;
 
  var incorrectCount = 0;
  var correctCount = 0;

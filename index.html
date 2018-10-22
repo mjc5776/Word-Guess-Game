@@ -11,42 +11,58 @@
 </head>
 <body>
     <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-4">Word Guess Game</h1>
-          <p class="lead" id="status">Let's Play a Game. Press any key to get started.</p>
+        <div class="container-fluid">
+            <h1 class="display-4">Denver Bronco Greats</h1>
+          <h1 class="display-6">Guess the name of these Denver Broncos Greats</h1>
+          <p class="lead" id="status"> Press any letter to play.</p>
+    </div> 
+    </div>   
          <!-- <button onclick="selectWord()"> Click to Play</button>-->
-            <h1><p id="gameWord"></p></h1>
-            <div>
-                <label for="correctGuess">Correct Guess:</label>
-                <label id="correctGuess"></label>
+         <div class="container-fluid">
+          <div class="row">
+              <div class="col-4">
+                    <ul>
+                      <li>
+                          <label for="correctGuess">Correct Guess:</label>
+                          <label id="correctGuess"></label>
+                      </li>
+                    <li>
+                      <label for="incorrectGuess">Incorrect Guess:</label>
+                      <label id="incorrectGuess"></label>
+                    </li>
+                    <li>
+                      <label for="lblTurnsRemain">Turns Remaining:</label>
+                      <label id="lblTurnsRemain"></label>
+                    </li>
+                  </ul>
               </div>
-              <div>
-                <label for="incorrectGuess">Incorrect Guess:</label>
-                <label id="incorrectGuess"></label>
-              </div>
-              <div>
-                <label for="lblTurnsRemain">Turns Remaining:</label>
-                <label id="lblTurnsRemain"></label>
-              </div>
-              <div>
-                <label for="lblWins">Wins:</label>
-                <label id="lblWins"></label>
-              </div>
-              <div>
-                <label for="lblLoses">Loses:</label>
-                <label id="lblLoses"></label>
-              </div>
-              <div>
-                <label for="lblIncorrectLetter">Incorrect Letters Guessed:</label>
-                <label id="lblIncorrectLetter">.</label>
-              </div>
-              
+            <div class="col-4">
+              <h1><p id="gameWord"></p></h1>
+              <div >
+                  <label for="lblIncorrectLetter">Incorrect Letters</label>
+                  <div>
+                    <label id="lblIncorrectLetter">.</label>
+                  </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <ul>
+                  <li>
+                    <label for="lblWins">Wins:</label>
+                    <label id="lblWins"></label>
+                  </li>
+                  <li>
+                    <label for="lblLoses">Loses:</label>
+                    <label id="lblLoses"></label>
+                  </li>
+                </ul>
+            </div>
+          </div>
+         </div>                 
       </div>
-    </div>
     
 
-
-
-<script src="assets/javascript/game.js"></script>   
+<script src="assets/javascript/game.js"></script> 
+  
 </body>
 </html>

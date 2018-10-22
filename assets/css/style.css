@@ -1,0 +1,27 @@
+.jumbotron{
+    background-color: #f05200;
+   
+}
+
+.display-4{
+    font-size: 70px;
+    color:white;
+    font-weight: 500;
+}
+
+#status{
+    color:#061632;
+    font-size: 30px;
+}
+
+label{
+    font-size: 23px;
+}
+
+#lblIncorrectLetter{
+    color: #f05200;
+    
+}
+
+
+
